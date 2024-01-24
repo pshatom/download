@@ -1,0 +1,13 @@
+ISMEAR =  0            (Gaussian smearing)
+SIGMA  =  0.01         (Smearing value in eV)
+IBRION =  -1           (Ions are not moved)
+EDIFF  =  1E-08        (SCF energy convergence; in eV)
+PREC   =  High     (Precision level)
+ENCUT  =  550        (Cut-off energy for plane wave basis set, in eV)
+IALGO  =  38           (Davidson block iteration scheme)
+LREAL  = .FALSE.       (Projection operators: false)
+LWAVE  = .FLASE.       (Write WAVECAR or not)
+LCHARG = .FLASE.       (Write CHGCAR or not)
+ADDGRID= .TRUE.        (Increase grid; helps GGA convergence)
+
+ 
